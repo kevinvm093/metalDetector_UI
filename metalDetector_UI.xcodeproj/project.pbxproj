@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D00F7DA120B8FAEA007A8A0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00F7DA020B8FAEA007A8A0B /* AppDelegate.swift */; };
+		D00F7DA320B8FAEA007A8A0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00F7DA220B8FAEA007A8A0B /* ViewController.swift */; };
+		D00F7DA520B8FAEA007A8A0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D00F7DA420B8FAEA007A8A0B /* Assets.xcassets */; };
+		D00F7DA820B8FAEA007A8A0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D00F7DA620B8FAEA007A8A0B /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D00F7D9D20B8FAEA007A8A0B /* metalDetector_UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = metalDetector_UI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D00F7DA020B8FAEA007A8A0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D00F7DA220B8FAEA007A8A0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D00F7DA420B8FAEA007A8A0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D00F7DA720B8FAEA007A8A0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D00F7DA920B8FAEA007A8A0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D00F7D9A20B8FAEA007A8A0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D00F7D9420B8FAE9007A8A0B = {
+			isa = PBXGroup;
+			children = (
+				D00F7D9F20B8FAEA007A8A0B /* metalDetector_UI */,
+				D00F7D9E20B8FAEA007A8A0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D00F7D9E20B8FAEA007A8A0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D00F7D9D20B8FAEA007A8A0B /* metalDetector_UI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D00F7D9F20B8FAEA007A8A0B /* metalDetector_UI */ = {
+			isa = PBXGroup;
+			children = (
+				D00F7DA020B8FAEA007A8A0B /* AppDelegate.swift */,
+				D00F7DA220B8FAEA007A8A0B /* ViewController.swift */,
+				D00F7DA420B8FAEA007A8A0B /* Assets.xcassets */,
+				D00F7DA620B8FAEA007A8A0B /* Main.storyboard */,
+				D00F7DA920B8FAEA007A8A0B /* Info.plist */,
+			);
+			path = metalDetector_UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D00F7D9C20B8FAEA007A8A0B /* metalDetector_UI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D00F7DAC20B8FAEA007A8A0B /* Build configuration list for PBXNativeTarget "metalDetector_UI" */;
+			buildPhases = (
+				D00F7D9920B8FAEA007A8A0B /* Sources */,
+				D00F7D9A20B8FAEA007A8A0B /* Frameworks */,
+				D00F7D9B20B8FAEA007A8A0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = metalDetector_UI;
+			productName = metalDetector_UI;
+			productReference = D00F7D9D20B8FAEA007A8A0B /* metalDetector_UI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D00F7D9520B8FAE9007A8A0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Vallejo;
+				TargetAttributes = {
+					D00F7D9C20B8FAEA007A8A0B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 67NGABWL3F;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D00F7D9820B8FAEA007A8A0B /* Build configuration list for PBXProject "metalDetector_UI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D00F7D9420B8FAE9007A8A0B;
+			productRefGroup = D00F7D9E20B8FAEA007A8A0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D00F7D9C20B8FAEA007A8A0B /* metalDetector_UI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D00F7D9B20B8FAEA007A8A0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00F7DA520B8FAEA007A8A0B /* Assets.xcassets in Resources */,
+				D00F7DA820B8FAEA007A8A0B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D00F7D9920B8FAEA007A8A0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00F7DA320B8FAEA007A8A0B /* ViewController.swift in Sources */,
+				D00F7DA120B8FAEA007A8A0B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D00F7DA620B8FAEA007A8A0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D00F7DA720B8FAEA007A8A0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D00F7DAA20B8FAEA007A8A0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D00F7DAB20B8FAEA007A8A0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		D00F7DAD20B8FAEA007A8A0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 67NGABWL3F;
+				INFOPLIST_FILE = metalDetector_UI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kv093.metalDetector-UI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D00F7DAE20B8FAEA007A8A0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 67NGABWL3F;
+				INFOPLIST_FILE = metalDetector_UI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kv093.metalDetector-UI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D00F7D9820B8FAEA007A8A0B /* Build configuration list for PBXProject "metalDetector_UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D00F7DAA20B8FAEA007A8A0B /* Debug */,
+				D00F7DAB20B8FAEA007A8A0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D00F7DAC20B8FAEA007A8A0B /* Build configuration list for PBXNativeTarget "metalDetector_UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D00F7DAD20B8FAEA007A8A0B /* Debug */,
+				D00F7DAE20B8FAEA007A8A0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D00F7D9520B8FAE9007A8A0B /* Project object */;
+}
