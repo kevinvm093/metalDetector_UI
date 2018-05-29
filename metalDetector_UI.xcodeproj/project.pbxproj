@@ -7,19 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040B961491C496480A37B3D3 /* Pods_metalDetector_UI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F129DED341CB6C85B44AB58C /* Pods_metalDetector_UI.framework */; };
 		D00F7DA120B8FAEA007A8A0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00F7DA020B8FAEA007A8A0B /* AppDelegate.swift */; };
 		D00F7DA320B8FAEA007A8A0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00F7DA220B8FAEA007A8A0B /* ViewController.swift */; };
 		D00F7DA520B8FAEA007A8A0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D00F7DA420B8FAEA007A8A0B /* Assets.xcassets */; };
 		D00F7DA820B8FAEA007A8A0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D00F7DA620B8FAEA007A8A0B /* Main.storyboard */; };
+		D03C3FD520B9EAA3006F0DBC /* Map_veiwController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03C3FD420B9EAA3006F0DBC /* Map_veiwController.swift */; };
+		D03C3FD720B9F12F006F0DBC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D03C3FD620B9F12F006F0DBC /* GoogleService-Info.plist */; };
+		D0BE84C120BA49EB00D06D59 /* LOCATION.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BE84C020BA49EB00D06D59 /* LOCATION.swift */; };
+		D0BE84C320BA62F400D06D59 /* PIN.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BE84C220BA62F400D06D59 /* PIN.swift */; };
+		D0FDD1F020BCAC7200B256D2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FDD1EF20BCAC7200B256D2 /* CoreLocation.framework */; };
+		D0FDD1F220BDFB7E00B256D2 /* metal_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0FDD1F120BDFB7E00B256D2 /* metal_background.jpg */; };
+		D0FDD1F820BE0C6500B256D2 /* data_viewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FDD1F620BE0C6500B256D2 /* data_viewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9FA81EE7B2EC12DFA90FD8E4 /* Pods-metalDetector_UI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-metalDetector_UI.release.xcconfig"; path = "Pods/Target Support Files/Pods-metalDetector_UI/Pods-metalDetector_UI.release.xcconfig"; sourceTree = "<group>"; };
+		A5A0214D5396569FFB0D2DAF /* Pods-metalDetector_UI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-metalDetector_UI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-metalDetector_UI/Pods-metalDetector_UI.debug.xcconfig"; sourceTree = "<group>"; };
 		D00F7D9D20B8FAEA007A8A0B /* metalDetector_UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = metalDetector_UI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D00F7DA020B8FAEA007A8A0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D00F7DA220B8FAEA007A8A0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D00F7DA420B8FAEA007A8A0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D00F7DA720B8FAEA007A8A0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D00F7DA920B8FAEA007A8A0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D03C3FD420B9EAA3006F0DBC /* Map_veiwController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Map_veiwController.swift; sourceTree = "<group>"; };
+		D03C3FD620B9F12F006F0DBC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D0BE84C020BA49EB00D06D59 /* LOCATION.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LOCATION.swift; sourceTree = "<group>"; };
+		D0BE84C220BA62F400D06D59 /* PIN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PIN.swift; sourceTree = "<group>"; };
+		D0FDD1EF20BCAC7200B256D2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D0FDD1F120BDFB7E00B256D2 /* metal_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = metal_background.jpg; sourceTree = "<group>"; };
+		D0FDD1F620BE0C6500B256D2 /* data_viewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = data_viewController.swift; sourceTree = "<group>"; };
+		F129DED341CB6C85B44AB58C /* Pods_metalDetector_UI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_metalDetector_UI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +45,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0FDD1F020BCAC7200B256D2 /* CoreLocation.framework in Frameworks */,
+				040B961491C496480A37B3D3 /* Pods_metalDetector_UI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07A8DC1CFFA496941EC947DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0FDD1EF20BCAC7200B256D2 /* CoreLocation.framework */,
+				F129DED341CB6C85B44AB58C /* Pods_metalDetector_UI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		377EBA5F20A9F1404B0CFD79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5A0214D5396569FFB0D2DAF /* Pods-metalDetector_UI.debug.xcconfig */,
+				9FA81EE7B2EC12DFA90FD8E4 /* Pods-metalDetector_UI.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D00F7D9420B8FAE9007A8A0B = {
 			isa = PBXGroup;
 			children = (
+				D0BE84C220BA62F400D06D59 /* PIN.swift */,
 				D00F7D9F20B8FAEA007A8A0B /* metalDetector_UI */,
 				D00F7D9E20B8FAEA007A8A0B /* Products */,
+				377EBA5F20A9F1404B0CFD79 /* Pods */,
+				07A8DC1CFFA496941EC947DE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,11 +95,24 @@
 			children = (
 				D00F7DA020B8FAEA007A8A0B /* AppDelegate.swift */,
 				D00F7DA220B8FAEA007A8A0B /* ViewController.swift */,
+				D0FDD1F620BE0C6500B256D2 /* data_viewController.swift */,
+				D03C3FD420B9EAA3006F0DBC /* Map_veiwController.swift */,
+				D0BE84C020BA49EB00D06D59 /* LOCATION.swift */,
 				D00F7DA420B8FAEA007A8A0B /* Assets.xcassets */,
 				D00F7DA620B8FAEA007A8A0B /* Main.storyboard */,
 				D00F7DA920B8FAEA007A8A0B /* Info.plist */,
+				D03C3FD620B9F12F006F0DBC /* GoogleService-Info.plist */,
+				D0FDD1F320BDFBA300B256D2 /* design */,
 			);
 			path = metalDetector_UI;
+			sourceTree = "<group>";
+		};
+		D0FDD1F320BDFBA300B256D2 /* design */ = {
+			isa = PBXGroup;
+			children = (
+				D0FDD1F120BDFB7E00B256D2 /* metal_background.jpg */,
+			);
+			name = design;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -68,9 +122,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D00F7DAC20B8FAEA007A8A0B /* Build configuration list for PBXNativeTarget "metalDetector_UI" */;
 			buildPhases = (
+				E0FE131BFA70AA770D6FD53B /* [CP] Check Pods Manifest.lock */,
 				D00F7D9920B8FAEA007A8A0B /* Sources */,
 				D00F7D9A20B8FAEA007A8A0B /* Frameworks */,
 				D00F7D9B20B8FAEA007A8A0B /* Resources */,
+				F3294FF84F3D17235FC8C689 /* [CP] Embed Pods Frameworks */,
+				3B55E88D51DF2EFA0B886E46 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,11 +179,71 @@
 			buildActionMask = 2147483647;
 			files = (
 				D00F7DA520B8FAEA007A8A0B /* Assets.xcassets in Resources */,
+				D0FDD1F220BDFB7E00B256D2 /* metal_background.jpg in Resources */,
 				D00F7DA820B8FAEA007A8A0B /* Main.storyboard in Resources */,
+				D03C3FD720B9F12F006F0DBC /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B55E88D51DF2EFA0B886E46 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-metalDetector_UI/Pods-metalDetector_UI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0FE131BFA70AA770D6FD53B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-metalDetector_UI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3294FF84F3D17235FC8C689 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-metalDetector_UI/Pods-metalDetector_UI-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-metalDetector_UI/Pods-metalDetector_UI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D00F7D9920B8FAEA007A8A0B /* Sources */ = {
@@ -134,7 +251,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D00F7DA320B8FAEA007A8A0B /* ViewController.swift in Sources */,
+				D0BE84C320BA62F400D06D59 /* PIN.swift in Sources */,
+				D0FDD1F820BE0C6500B256D2 /* data_viewController.swift in Sources */,
 				D00F7DA120B8FAEA007A8A0B /* AppDelegate.swift in Sources */,
+				D0BE84C120BA49EB00D06D59 /* LOCATION.swift in Sources */,
+				D03C3FD520B9EAA3006F0DBC /* Map_veiwController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +365,7 @@
 		};
 		D00F7DAD20B8FAEA007A8A0B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5A0214D5396569FFB0D2DAF /* Pods-metalDetector_UI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -258,6 +380,7 @@
 		};
 		D00F7DAE20B8FAEA007A8A0B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FA81EE7B2EC12DFA90FD8E4 /* Pods-metalDetector_UI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -289,6 +412,7 @@
 				D00F7DAE20B8FAEA007A8A0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
